@@ -1,0 +1,433 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{971832F8-2927-3F59-B7AD-76CA915BF84F}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>scotty3d</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\Debug\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">scotty3d.dir\Debug\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">scotty3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\Release\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">scotty3d.dir\Release\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|x64'">scotty3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\MinSizeRel\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">scotty3d.dir\MinSizeRel\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">scotty3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">true</GenerateManifest>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\RelWithDebInfo\</OutDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">scotty3d.dir\RelWithDebInfo\</IntDir>
+    <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">scotty3d</TargetName>
+    <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">.exe</TargetExt>
+    <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</LinkIncremental>
+    <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">true</GenerateManifest>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>Disabled</InlineFunctionExpansion>
+      <Optimization>Disabled</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;_USE_MATH_DEFINES;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+F:\cmake\bin\cmake.exe -E copy_if_different C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/bin/freetype.dll C:/Users/DELL-PC/Desktop/Scotty3D/build5/Debug
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\CMU462\src\Debug\CMU462.lib;..\CMU462\deps\glew\Debug\glew.lib;..\CMU462\deps\glfw\src\Debug\glfw3.lib;opengl32.lib;opengl32.lib;glu32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/lib;C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL-PC/Desktop/Scotty3D/build5/Debug/scotty3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL-PC/Desktop/Scotty3D/build5/Debug/scotty3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>AnySuitable</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+F:\cmake\bin\cmake.exe -E copy_if_different C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/bin/freetype.dll C:/Users/DELL-PC/Desktop/Scotty3D/build5/Release
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\CMU462\src\Release\CMU462.lib;..\CMU462\deps\glew\Release\glew.lib;..\CMU462\deps\glfw\src\Release\glfw3.lib;opengl32.lib;opengl32.lib;glu32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/lib;C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL-PC/Desktop/Scotty3D/build5/Release/scotty3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL-PC/Desktop/Scotty3D/build5/Release/scotty3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MinSpace</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+      <DebugInformationFormat>
+      </DebugInformationFormat>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+F:\cmake\bin\cmake.exe -E copy_if_different C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/bin/freetype.dll C:/Users/DELL-PC/Desktop/Scotty3D/build5/MinSizeRel
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\CMU462\src\MinSizeRel\CMU462.lib;..\CMU462\deps\glew\MinSizeRel\glew.lib;..\CMU462\deps\glfw\src\MinSizeRel\glfw3.lib;opengl32.lib;opengl32.lib;glu32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/lib;C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>false</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL-PC/Desktop/Scotty3D/build5/MinSizeRel/scotty3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL-PC/Desktop/Scotty3D/build5/MinSizeRel/scotty3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <ClCompile>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AssemblerListingLocation>$(IntDir)</AssemblerListingLocation>
+      <CompileAs>CompileAsCpp</CompileAs>
+      <CppLanguageStandard>gnu++11</CppLanguageStandard>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+      <ExceptionHandling>Sync</ExceptionHandling>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <Optimization>MaxSpeed</Optimization>
+      <PrecompiledHeader>NotUsing</PrecompiledHeader>
+      <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
+      <WarningLevel>Level3</WarningLevel>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <ObjectFileName>$(IntDir)</ObjectFileName>
+    </ClCompile>
+    <ResourceCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;_USE_MATH_DEFINES;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ResourceCompile>
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\include\freetype;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+    <PostBuildEvent>
+      <Message></Message>
+      <Command>setlocal
+F:\cmake\bin\cmake.exe -E copy_if_different C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/bin/freetype.dll C:/Users/DELL-PC/Desktop/Scotty3D/build5/RelWithDebInfo
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+    </PostBuildEvent>
+    <Link>
+      <AdditionalDependencies>..\CMU462\src\RelWithDebInfo\CMU462.lib;..\CMU462\deps\glew\RelWithDebInfo\glew.lib;..\CMU462\deps\glfw\src\RelWithDebInfo\glfw3.lib;opengl32.lib;opengl32.lib;glu32.lib;freetype.lib;kernel32.lib;user32.lib;gdi32.lib;winspool.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;comdlg32.lib;advapi32.lib</AdditionalDependencies>
+      <AdditionalLibraryDirectories>C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/lib;C:/Users/DELL-PC/Desktop/Scotty3D/CMU462/deps/freetype/lib/$(Configuration);%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <AdditionalOptions>%(AdditionalOptions) /machine:x64</AdditionalOptions>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
+      <ImportLibrary>C:/Users/DELL-PC/Desktop/Scotty3D/build5/RelWithDebInfo/scotty3d.lib</ImportLibrary>
+      <ProgramDataBaseFile>C:/Users/DELL-PC/Desktop/Scotty3D/build5/RelWithDebInfo/scotty3d.pdb</ProgramDataBaseFile>
+      <SubSystem>Console</SubSystem>
+    </Link>
+    <ProjectReference>
+      <LinkLibraryDependencies>false</LinkLibraryDependencies>
+    </ProjectReference>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Building Custom Rule C:/Users/DELL-PC/Desktop/Scotty3D/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake\bin\cmake.exe -SC:/Users/DELL-PC/Desktop/Scotty3D -BC:/Users/DELL-PC/Desktop/Scotty3D/build5 --check-stamp-file C:/Users/DELL-PC/Desktop/Scotty3D/build5/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Building Custom Rule C:/Users/DELL-PC/Desktop/Scotty3D/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake\bin\cmake.exe -SC:/Users/DELL-PC/Desktop/Scotty3D -BC:/Users/DELL-PC/Desktop/Scotty3D/build5 --check-stamp-file C:/Users/DELL-PC/Desktop/Scotty3D/build5/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Building Custom Rule C:/Users/DELL-PC/Desktop/Scotty3D/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\cmake\bin\cmake.exe -SC:/Users/DELL-PC/Desktop/Scotty3D -BC:/Users/DELL-PC/Desktop/Scotty3D/build5 --check-stamp-file C:/Users/DELL-PC/Desktop/Scotty3D/build5/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Building Custom Rule C:/Users/DELL-PC/Desktop/Scotty3D/src/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\cmake\bin\cmake.exe -SC:/Users/DELL-PC/Desktop/Scotty3D -BC:/Users/DELL-PC/Desktop/Scotty3D/build5 --check-stamp-file C:/Users/DELL-PC/Desktop/Scotty3D/build5/src/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\collada.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\camera_info.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\light_info.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\sphere_info.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\polymesh_info.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\material_info.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\mesh.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\scene.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\sphere.cpp">
+      <ObjectFileName>$(IntDir)/dynamic_scene/sphere.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\widgets.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\skeleton.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\joint.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\sphere.cpp">
+      <ObjectFileName>$(IntDir)/static_scene/sphere.cpp.obj</ObjectFileName>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\triangle.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\object.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\environment_light.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\light.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\halfEdgeMesh.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\bvh.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\bbox.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\bsdf.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\camera.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\sampler.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\pathtracer.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\timeline.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\misc\sphere_drawing.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\getopt.c">
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">CompileAsC</CompileAs>
+      <CompileAs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">CompileAsC</CompileAs>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\error_dialog.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\application.cpp" />
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\main.cpp" />
+    <ClInclude Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\spline.inl" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="C:\Users\DELL-PC\Desktop\Scotty3D\build5\ZERO_CHECK.vcxproj">
+      <Project>{FA7F6D58-657F-3ED8-8DF1-061D6EBB14D4}</Project>
+      <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\src\CMU462.vcxproj">
+      <Project>{058F89AC-9D4A-34B5-8CAA-2E2B907B7622}</Project>
+      <Name>CMU462</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glew\glew.vcxproj">
+      <Project>{6909062C-B38B-3252-8AD9-C916F47B9AA2}</Project>
+      <Name>glew</Name>
+    </ProjectReference>
+    <ProjectReference Include="C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\src\glfw.vcxproj">
+      <Project>{6CD46642-E1B7-3EB4-92BB-A8C3ECC125B8}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

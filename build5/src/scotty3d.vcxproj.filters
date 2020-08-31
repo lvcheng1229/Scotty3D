@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\collada.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\camera_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\light_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\sphere_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\polymesh_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\collada\material_info.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\mesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\scene.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\widgets.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\skeleton.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\dynamic_scene\joint.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\sphere.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\triangle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\object.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\environment_light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\static_scene\light.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\halfEdgeMesh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\bvh.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\bbox.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\bsdf.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\camera.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\sampler.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\pathtracer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\timeline.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\misc\sphere_drawing.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\getopt.c">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\error_dialog.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\application.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\spline.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL-PC\Desktop\Scotty3D\src\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{24FC5C90-CE1D-3831-811F-F8296D213A65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{7C130C2F-F42A-3172-B051-F1528E9C93F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

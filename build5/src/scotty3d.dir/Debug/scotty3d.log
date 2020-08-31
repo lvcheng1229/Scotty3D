@@ -1,0 +1,9 @@
+﻿  meshEdit.cpp
+C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp(881): warning C4244: “参数”: 从“size_t”转换到“const double”，可能丢失数据
+C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp(1258): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp(1344): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp(1517): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp(1518): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp(1519): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\DELL-PC\Desktop\Scotty3D\src\meshEdit.cpp(1520): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  scotty3d.vcxproj -> C:\Users\DELL-PC\Desktop\Scotty3D\build5\Debug\scotty3d.exe

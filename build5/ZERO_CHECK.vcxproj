@@ -1,0 +1,167 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|x64">
+      <Configuration>Debug</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|x64">
+      <Configuration>Release</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|x64">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|x64">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>x64</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{FA7F6D58-657F-3ED8-8DF1-061D6EBB14D4}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17763.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>x64</Platform>
+    <ProjectName>ZERO_CHECK</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <Midl>
+      <AdditionalIncludeDirectories>C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\include;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\bb6e0edd7d56d7ff40e93a3596800b6a\generate.stamp.rule">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">setlocal
+F:\cmake\bin\cmake.exe -SC:/Users/DELL-PC/Desktop/Scotty3D -BC:/Users/DELL-PC/Desktop/Scotty3D/build5 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/DELL-PC/Desktop/Scotty3D/build5/Scotty3D.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glew\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\cmake_uninstall.cmake.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw3.pc.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw3Config.cmake.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw_config.h.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\src\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeSystem.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\src\CMakeLists.txt;F:\cmake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;F:\cmake\share\cmake-3.16\Modules\CMakeCInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;F:\cmake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;F:\cmake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\share\cmake-3.16\Modules\FindGLEW.cmake;F:\cmake\share\cmake-3.16\Modules\FindOpenGL.cmake;F:\cmake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\share\cmake-3.16\Modules\FindPackageMessage.cmake;F:\cmake\share\cmake-3.16\Modules\FindPkgConfig.cmake;F:\cmake\share\cmake-3.16\Modules\FindThreads.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;F:\cmake\share\cmake-3.16\Modules\SelectLibraryConfigurations.cmake;F:\cmake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\freetype\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glew\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\src\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\src\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|x64'">setlocal
+F:\cmake\bin\cmake.exe -SC:/Users/DELL-PC/Desktop/Scotty3D -BC:/Users/DELL-PC/Desktop/Scotty3D/build5 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/DELL-PC/Desktop/Scotty3D/build5/Scotty3D.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glew\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\cmake_uninstall.cmake.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw3.pc.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw3Config.cmake.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw_config.h.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\src\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeSystem.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\src\CMakeLists.txt;F:\cmake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;F:\cmake\share\cmake-3.16\Modules\CMakeCInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;F:\cmake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;F:\cmake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\share\cmake-3.16\Modules\FindGLEW.cmake;F:\cmake\share\cmake-3.16\Modules\FindOpenGL.cmake;F:\cmake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\share\cmake-3.16\Modules\FindPackageMessage.cmake;F:\cmake\share\cmake-3.16\Modules\FindPkgConfig.cmake;F:\cmake\share\cmake-3.16\Modules\FindThreads.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;F:\cmake\share\cmake-3.16\Modules\SelectLibraryConfigurations.cmake;F:\cmake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\freetype\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glew\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\src\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\src\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">setlocal
+F:\cmake\bin\cmake.exe -SC:/Users/DELL-PC/Desktop/Scotty3D -BC:/Users/DELL-PC/Desktop/Scotty3D/build5 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/DELL-PC/Desktop/Scotty3D/build5/Scotty3D.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glew\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\cmake_uninstall.cmake.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw3.pc.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw3Config.cmake.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw_config.h.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\src\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeSystem.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\src\CMakeLists.txt;F:\cmake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;F:\cmake\share\cmake-3.16\Modules\CMakeCInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;F:\cmake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;F:\cmake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\share\cmake-3.16\Modules\FindGLEW.cmake;F:\cmake\share\cmake-3.16\Modules\FindOpenGL.cmake;F:\cmake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\share\cmake-3.16\Modules\FindPackageMessage.cmake;F:\cmake\share\cmake-3.16\Modules\FindPkgConfig.cmake;F:\cmake\share\cmake-3.16\Modules\FindThreads.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;F:\cmake\share\cmake-3.16\Modules\SelectLibraryConfigurations.cmake;F:\cmake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\freetype\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glew\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\src\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\src\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">Checking Build System</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">setlocal
+F:\cmake\bin\cmake.exe -SC:/Users/DELL-PC/Desktop/Scotty3D -BC:/Users/DELL-PC/Desktop/Scotty3D/build5 --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/DELL-PC/Desktop/Scotty3D/build5/Scotty3D.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\freetype\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glew\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\cmake_uninstall.cmake.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw3.pc.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw3Config.cmake.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\deps\glfw\src\glfw_config.h.in;C:\Users\DELL-PC\Desktop\Scotty3D\CMU462\src\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\CMakeLists.txt;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeCCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeCXXCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeRCCompiler.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\3.16.2\CMakeSystem.cmake;C:\Users\DELL-PC\Desktop\Scotty3D\src\CMakeLists.txt;F:\cmake\share\cmake-3.16\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;F:\cmake\share\cmake-3.16\Modules\CMakeCInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeCXXInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeCommonLanguageInclude.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeGenericSystem.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeInitializeConfigs.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeLanguageInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakePackageConfigHelpers.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeRCInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeSystemSpecificInformation.cmake;F:\cmake\share\cmake-3.16\Modules\CMakeSystemSpecificInitialize.cmake;F:\cmake\share\cmake-3.16\Modules\CheckCSourceCompiles.cmake;F:\cmake\share\cmake-3.16\Modules\CheckIncludeFile.cmake;F:\cmake\share\cmake-3.16\Modules\CheckLibraryExists.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\CMakeCommonCompilerMacros.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\MSVC-C.cmake;F:\cmake\share\cmake-3.16\Modules\Compiler\MSVC-CXX.cmake;F:\cmake\share\cmake-3.16\Modules\FindGLEW.cmake;F:\cmake\share\cmake-3.16\Modules\FindOpenGL.cmake;F:\cmake\share\cmake-3.16\Modules\FindPackageHandleStandardArgs.cmake;F:\cmake\share\cmake-3.16\Modules\FindPackageMessage.cmake;F:\cmake\share\cmake-3.16\Modules\FindPkgConfig.cmake;F:\cmake\share\cmake-3.16\Modules\FindThreads.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC-C.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC-CXX.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows-MSVC.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\Windows.cmake;F:\cmake\share\cmake-3.16\Modules\Platform\WindowsPaths.cmake;F:\cmake\share\cmake-3.16\Modules\SelectLibraryConfigurations.cmake;F:\cmake\share\cmake-3.16\Modules\WriteBasicConfigVersionFile.cmake;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\freetype\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glew\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\deps\glfw\src\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\CMU462\src\CMakeFiles\generate.stamp;C:\Users\DELL-PC\Desktop\Scotty3D\build5\src\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">false</LinkObjects>
+    </CustomBuild>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

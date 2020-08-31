@@ -1,0 +1,17 @@
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMakeFiles/INSTALL.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMakeFiles/ZERO_CHECK.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/CMakeFiles/INSTALL.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/deps/freetype/CMakeFiles/INSTALL.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/deps/glew/CMakeFiles/glew.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/deps/glew/CMakeFiles/INSTALL.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/deps/glfw/CMakeFiles/uninstall.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/deps/glfw/CMakeFiles/INSTALL.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/deps/glfw/CMakeFiles/ALL_BUILD.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/deps/glfw/src/CMakeFiles/glfw.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/deps/glfw/src/CMakeFiles/INSTALL.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/src/CMakeFiles/CMU462.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/CMU462/src/CMakeFiles/INSTALL.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/src/CMakeFiles/INSTALL.dir
+C:/Users/DELL-PC/Desktop/Scotty3D/build5/src/CMakeFiles/scotty3d.dir
